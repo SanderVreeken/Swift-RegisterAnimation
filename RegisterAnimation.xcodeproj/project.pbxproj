@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		18AAC07E2258B01400F4008A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC07D2258B01400F4008A /* AppDelegate.swift */; };
-		18AAC0802258B01400F4008A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC07F2258B01400F4008A /* ViewController.swift */; };
+		18AAC0802258B01400F4008A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC07F2258B01400F4008A /* MainVC.swift */; };
 		18AAC0832258B01400F4008A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AAC0812258B01400F4008A /* Main.storyboard */; };
 		18AAC0852258B01A00F4008A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AAC0842258B01A00F4008A /* Assets.xcassets */; };
 		18AAC0882258B01A00F4008A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AAC0862258B01A00F4008A /* LaunchScreen.storyboard */; };
+		18AAC0912258B06E00F4008A /* AnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC0902258B06E00F4008A /* AnimatedView.swift */; };
+		18AAC0932258B0E200F4008A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC0922258B0E200F4008A /* Constants.swift */; };
+		18AAC0952258CE3000F4008A /* AnimatedViewLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC0942258CE3000F4008A /* AnimatedViewLabel.swift */; };
+		18AAC0982258D04000F4008A /* ConfirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC0972258D04000F4008A /* ConfirmButton.swift */; };
+		18AAC09C2258D1D400F4008A /* ConfirmButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC09B2258D1D400F4008A /* ConfirmButtonLabel.swift */; };
+		18AAC09E2258D3C100F4008A /* AnimatedViewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC09D2258D3C100F4008A /* AnimatedViewTextField.swift */; };
+		18AAC0A02258D71F00F4008A /* SuperViewLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC09F2258D71F00F4008A /* SuperViewLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18AAC07A2258B01400F4008A /* RegisterAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AAC07D2258B01400F4008A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18AAC07F2258B01400F4008A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18AAC07F2258B01400F4008A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		18AAC0822258B01400F4008A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18AAC0842258B01A00F4008A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AAC0872258B01A00F4008A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AAC0892258B01A00F4008A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AAC0902258B06E00F4008A /* AnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedView.swift; sourceTree = "<group>"; };
+		18AAC0922258B0E200F4008A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18AAC0942258CE3000F4008A /* AnimatedViewLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedViewLabel.swift; sourceTree = "<group>"; };
+		18AAC0972258D04000F4008A /* ConfirmButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmButton.swift; sourceTree = "<group>"; };
+		18AAC09B2258D1D400F4008A /* ConfirmButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmButtonLabel.swift; sourceTree = "<group>"; };
+		18AAC09D2258D3C100F4008A /* AnimatedViewTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedViewTextField.swift; sourceTree = "<group>"; };
+		18AAC09F2258D71F00F4008A /* SuperViewLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,37 @@
 		18AAC07C2258B01400F4008A /* RegisterAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				18AAC08F2258B05B00F4008A /* Model */,
 				18AAC07D2258B01400F4008A /* AppDelegate.swift */,
-				18AAC07F2258B01400F4008A /* ViewController.swift */,
+				18AAC07F2258B01400F4008A /* MainVC.swift */,
 				18AAC0812258B01400F4008A /* Main.storyboard */,
 				18AAC0842258B01A00F4008A /* Assets.xcassets */,
 				18AAC0862258B01A00F4008A /* LaunchScreen.storyboard */,
 				18AAC0892258B01A00F4008A /* Info.plist */,
+				18AAC0922258B0E200F4008A /* Constants.swift */,
 			);
 			path = RegisterAnimation;
+			sourceTree = "<group>";
+		};
+		18AAC08F2258B05B00F4008A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18AAC0962258D01E00F4008A /* AnimatedViewElements */,
+				18AAC0902258B06E00F4008A /* AnimatedView.swift */,
+				18AAC0942258CE3000F4008A /* AnimatedViewLabel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18AAC0962258D01E00F4008A /* AnimatedViewElements */ = {
+			isa = PBXGroup;
+			children = (
+				18AAC09D2258D3C100F4008A /* AnimatedViewTextField.swift */,
+				18AAC0972258D04000F4008A /* ConfirmButton.swift */,
+				18AAC09B2258D1D400F4008A /* ConfirmButtonLabel.swift */,
+				18AAC09F2258D71F00F4008A /* SuperViewLabel.swift */,
+			);
+			path = AnimatedViewElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AAC0802258B01400F4008A /* ViewController.swift in Sources */,
+				18AAC0802258B01400F4008A /* MainVC.swift in Sources */,
+				18AAC0912258B06E00F4008A /* AnimatedView.swift in Sources */,
+				18AAC09E2258D3C100F4008A /* AnimatedViewTextField.swift in Sources */,
+				18AAC09C2258D1D400F4008A /* ConfirmButtonLabel.swift in Sources */,
+				18AAC0A02258D71F00F4008A /* SuperViewLabel.swift in Sources */,
+				18AAC0982258D04000F4008A /* ConfirmButton.swift in Sources */,
+				18AAC0952258CE3000F4008A /* AnimatedViewLabel.swift in Sources */,
 				18AAC07E2258B01400F4008A /* AppDelegate.swift in Sources */,
+				18AAC0932258B0E200F4008A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
